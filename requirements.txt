@@ -1,2 +1,21 @@
-fastapi
-uvicorn
+Flask==3.0.2
+Jinja2==3.1.6
+requests==2.31.0
+stripe==9.3.0
+python-openpay        # ← En lugar de openpay==2.0.0 (o getopenpay)
+gunicorn              # ← Necesario para Render
+python-dotenv
+numpy
+xgboost
+scikit-learn
+scipy
+flask
+python-telegram-bot
+Flask==3.0.2
+flask-cors==4.0.0
+mercadopago==2.1.0
+python-dotenv==1.0.0
+requests==2.31.0
+google-auth==2.29.0
+google-api-core==2.18.0
+google-generativeai==0.4.1
