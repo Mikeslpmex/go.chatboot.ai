@@ -1,0 +1,33 @@
+--- Núcleo de Google AI y Autenticación ---
+google-generativeai==0.4.1
+google-auth==2.29.0
+google-api-core==2.18.0
+
+# --- Bots de Telegram (Para corregir el error de telebot) ---
+pyTelegramBotAPI==4.17.0
+
+# --- Servidores, API y Webhooks (Monetización) ---
+Flask==3.0.2
+requests==2.31.0
+httpx==0.25.2
+python-dotenv==1.0.1
+
+# --- Base de Datos y Herramientas (Por si usas SQLite/Criptografía) ---
+cryptography==42.0.5
+# --- Núcleo de Google AI y Autenticación ---
+google-generativeai==0.4.1
+google-auth==2.29.0
+google-api-core==2.18.0
+
+# --- Servidor y API (Para api_publica y webhooks) ---
+Flask==3.0.2
+Werkzeug==3.0.1
+requests==2.31.0
+httpx==0.25.2
+
+# --- Seguridad y Redes (Para ngrok y escaneos de hash) ---
+pyngrok==7.1.6
+cryptography==42.0.5
+
+# --- Variables de Entorno ---
+python-dotenv==1.0.1
