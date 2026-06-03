@@ -1,21 +1,36 @@
-Flask==3.0.2
-Jinja2==3.1.6
-requests==2.31.0
-stripe==9.3.0
-python-openpay        # ← En lugar de openpay==2.0.0 (o getopenpay)
-gunicorn              # ← Necesario para Render
-python-dotenv
-numpy
-xgboost
-scikit-learn
-scipy
-flask
-python-telegram-bot
-Flask==3.0.2
-flask-cors==4.0.0
-mercadopago==2.1.0
-python-dotenv==1.0.0
-requests==2.31.0
+    requirements.txt
+# --- Núcleo de Google AI y Autenticación ---
+google-generativeai==0.4.1
 google-auth==2.29.0
 google-api-core==2.18.0
+
+# --- Bots de Telegram (Para corregir el error de telebot) ---
+pyTelegramBotAPI==4.17.0
+
+# --- Servidores, API y Webhooks (Monetización) ---
+Flask==3.0.2
+requests==2.31.0
+httpx==0.25.2
+python-dotenv==1.0.1
+
+# --- Base de Datos y Herramientas (Por si usas SQLite/Criptografía) ---
+cryptography==42.0.5
+# --- Núcleo de Google AI y Autenticación ---
 google-generativeai==0.4.1
+google-auth==2.29.0
+google-api-core==2.18.0
+
+# --- Servidor y API (Para api_publica y webhooks) ---
+Flask==3.0.2
+Werkzeug==3.0.1
+requests==2.31.0
+httpx==0.25.2
+
+# --- Seguridad y Redes (Para ngrok y escaneos de hash) ---
+pyngrok==7.1.6
+cryptography==42.0.5
+
+# --- Variables de Entorno ---
+python-dotenv==1.0.1
+
+
