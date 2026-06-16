@@ -22,12 +22,16 @@ google-api-core==2.18.0
 # --- Servidor y API (Para api_publica y webhooks) ---
 Flask==3.0.2
 Werkzeug==3.0.1
-requests==2.31.0
-httpx==0.25.2
-
-# --- Seguridad y Redes (Para ngrok y escaneos de hash) ---
-pyngrok==7.1.6
-cryptography==42.0.5
-
-# --- Variables de Entorno ---
-python-dotenv==1.0.1
+requests==2.31.
+Jinja2==3.1.6
+requests>=2.31,<3.0
+stripe==9.3.0
+mercadopago==2.1.0
+gunicorn==26.0.0
+python-dotenv==1.0.0
+numpy
+xgboost
+scikit-learn
+scipy
+python-telegram-bot==22.8
+flask-cors==4.0.0
